@@ -266,7 +266,7 @@
 <header>
   <div>
     <h1>Index Scanner</h1>
-    <div class="sub">NIFTY / BANKNIFTY / SENSEX &middot; ITM Call/Put buying signals, confirmed against the ATM option's own price &middot; CALL = pivot + Daily R1 + EMA(5&gt;26&gt;50) stack on Daily/60m/15m + above prev-day high + above the 9:15 ATM strike (mirrored for PUT, using S1 and below the 9:15 ATM strike)</div>
+    <div class="sub">NIFTY / BANKNIFTY / SENSEX &middot; ITM Call/Put buying signals &middot; CALL = pivot + Daily R1 + EMA(5&gt;26&gt;50) stack on Daily/60m/15m + above prev-day high + above the 9:15 ATM strike (mirrored for PUT, using S1 and below the 9:15 ATM strike)</div>
   </div>
   <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px;">
     <div id="running-clock"></div>
@@ -386,18 +386,18 @@ function optionLevelsBlock(ol, atmStrike915) {
 }
 
 
-function confirmationNote(stock, criteriaSide, sideConds) {
-  // Explains the gap between the criteria checklist (always the
-  // underlying's own conditions) and the badge (the CONFIRMED signal,
-  // which also needs that day's ATM option's own price to agree on the
-  // same side) -- without this, a card can show e.g. 7/7 PUT criteria met
-  // with a "NO SIGNAL" badge and no visible reason why.
-  if (!stock.confirmation || !stock.underlyingSignal || stock.underlyingSignal === "NONE") return "";
-  const optSignal = criteriaSide === "PUT" ? stock.confirmation.put : stock.confirmation.call;
-  if (stock.signal !== "NONE") {
-    return `<div class="info-note" style="font-style:normal;color:var(--good);font-weight:600;">&#10003; Confirmed &mdash; the ATM ${criteriaSide} option's own price also shows ${criteriaSide}.</div>`;
+function optionAgreementNote(stock, sig) {
+  // Informational only -- shows what each ATM option contract's own price
+  // is doing relative to the badge, for context. Does NOT gate `signal`
+  // (that AND-gate was removed 2026-09-15 at the user's explicit request --
+  // it produced confusing "7/7 criteria met, NO SIGNAL" cards whenever the
+  // option's own price didn't happen to independently agree).
+  if (!stock.confirmation || sig === "NONE") return "";
+  const optSignal = sig === "PUT" ? stock.confirmation.put : stock.confirmation.call;
+  if (optSignal === sig) {
+    return `<div class="info-note" style="font-style:normal;color:var(--good);">&#10003; The ATM ${sig} option's own price also currently shows ${sig} (informational).</div>`;
   }
-  return `<div class="info-note" style="font-style:normal;color:var(--warning);font-weight:600;">&#9888; Underlying met all ${sideConds.count}/${sideConds.total} ${criteriaSide} criteria, but the ATM ${criteriaSide} option's own price currently shows ${optSignal ?? "no signal"} &mdash; it must also show ${criteriaSide} to confirm.</div>`;
+  return `<div class="info-note">&#8505; The ATM ${sig} option's own price currently shows ${optSignal ?? "no signal"}, not ${sig} (informational only -- doesn't affect this signal).</div>`;
 }
 
 function card(stock, meta) {
@@ -409,16 +409,8 @@ function card(stock, meta) {
   }
 
   const sig = stock.signal;
-  // For index entries, `signal` is the CONFIRMED (post-AND-gate) value, which
-  // can be NONE even when the underlying's own conditions favor a side --
-  // show the criteria breakdown for whichever side the underlying itself
-  // leans toward (`underlyingSignal`), not the possibly-downgraded `sig`,
-  // so the checklist doesn't silently flip to the wrong side. Option
-  // contracts (and error cards) have no underlyingSignal and fall back to
-  // `sig`, unchanged from before.
-  const criteriaSide = stock.underlyingSignal ?? sig;
-  const dir = criteriaSide === "PUT" ? "put" : "call";
-  const sideConds = criteriaSide === "PUT" ? stock.sell : stock.buy;
+  const dir = sig === "PUT" ? "put" : "call";
+  const sideConds = sig === "PUT" ? stock.sell : stock.buy;
   const rows = parseDetail(sideConds.detail).map(([label, met]) => critRow(label, met, dir)).join("");
   const count = counterState.counts[stock.symbol] || 0;
   const over = count >= meta.max_trades_per_day;
@@ -431,9 +423,9 @@ function card(stock, meta) {
     </div>
     ${catChip(stock.category)}
     ${optionLevelsBlock(stock.optionLevels, stock.category === "INDEX" ? lvl.atmStrike915 : null)}
-    <div class="side-label">${criteriaSide === "PUT" ? "Put criteria" : "Call criteria"} (${sideConds.count}/${sideConds.total})</div>
+    <div class="side-label">${sig === "PUT" ? "Put criteria" : "Call criteria"} (${sideConds.count}/${sideConds.total})</div>
     ${rows}
-    ${confirmationNote(stock, criteriaSide, sideConds)}
+    ${optionAgreementNote(stock, sig)}
     <div class="info-row ${stock.isNarrowCPR ? "on" : "off"}"><span class="mark">${stock.isNarrowCPR ? "✓" : "·"}</span>Narrow CPR (trending bias)</div>
     <div class="levels">
       <div class="lvl-group">

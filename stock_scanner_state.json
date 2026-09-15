@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:18:30.729937",
+  "generated_at": "2026-09-15T23:33:23.126845",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -14,7 +14,7 @@
       "error": null,
       "ltp": 23118.6,
       "last_bar_time": "2026-09-15T20:30:00",
-      "signal": "NONE",
+      "signal": "PUT",
       "buy": {
         "count": 0,
         "total": 7,
@@ -70,7 +70,6 @@
           "pe_ask": 482.55
         }
       },
-      "underlyingSignal": "PUT",
       "confirmation": {
         "call": "PUT",
         "put": "CALL"
@@ -140,7 +139,6 @@
           "pe_ask": 1174.2
         }
       },
-      "underlyingSignal": "NONE",
       "confirmation": {
         "call": "PUT",
         "put": "NONE"
@@ -154,7 +152,7 @@
       "error": null,
       "ltp": 74003.82,
       "last_bar_time": "2026-09-15T17:00:00",
-      "signal": "NONE",
+      "signal": "PUT",
       "buy": {
         "count": 0,
         "total": 7,
@@ -210,7 +208,6 @@
           "pe_ask": 0.0
         }
       },
-      "underlyingSignal": "PUT",
       "confirmation": {
         "call": "PUT",
         "put": "NONE"
