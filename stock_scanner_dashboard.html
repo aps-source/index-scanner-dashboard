@@ -386,6 +386,20 @@ function optionLevelsBlock(ol, atmStrike915) {
 }
 
 
+function confirmationNote(stock, criteriaSide, sideConds) {
+  // Explains the gap between the criteria checklist (always the
+  // underlying's own conditions) and the badge (the CONFIRMED signal,
+  // which also needs that day's ATM option's own price to agree on the
+  // same side) -- without this, a card can show e.g. 7/7 PUT criteria met
+  // with a "NO SIGNAL" badge and no visible reason why.
+  if (!stock.confirmation || !stock.underlyingSignal || stock.underlyingSignal === "NONE") return "";
+  const optSignal = criteriaSide === "PUT" ? stock.confirmation.put : stock.confirmation.call;
+  if (stock.signal !== "NONE") {
+    return `<div class="info-note" style="font-style:normal;color:var(--good);font-weight:600;">&#10003; Confirmed &mdash; the ATM ${criteriaSide} option's own price also shows ${criteriaSide}.</div>`;
+  }
+  return `<div class="info-note" style="font-style:normal;color:var(--warning);font-weight:600;">&#9888; Underlying met all ${sideConds.count}/${sideConds.total} ${criteriaSide} criteria, but the ATM ${criteriaSide} option's own price currently shows ${optSignal ?? "no signal"} &mdash; it must also show ${criteriaSide} to confirm.</div>`;
+}
+
 function card(stock, meta) {
   if (stock.error) {
     return `<div class="card card-ERR"><div class="card-top"><div class="symbol-row"><span class="symbol">${stock.symbol}</span>${chartLink(stock)}</div>
@@ -419,6 +433,7 @@ function card(stock, meta) {
     ${optionLevelsBlock(stock.optionLevels, stock.category === "INDEX" ? lvl.atmStrike915 : null)}
     <div class="side-label">${criteriaSide === "PUT" ? "Put criteria" : "Call criteria"} (${sideConds.count}/${sideConds.total})</div>
     ${rows}
+    ${confirmationNote(stock, criteriaSide, sideConds)}
     <div class="info-row ${stock.isNarrowCPR ? "on" : "off"}"><span class="mark">${stock.isNarrowCPR ? "✓" : "·"}</span>Narrow CPR (trending bias)</div>
     <div class="levels">
       <div class="lvl-group">
