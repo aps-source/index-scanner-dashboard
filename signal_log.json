@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "generated_at": "2026-09-15T23:18:30.729937",
+    "date": "2026-09-15",
+    "time": "23:18",
+    "call": 1,
+    "put": 3,
+    "none": 5,
+    "err": 0,
+    "call_symbols": [
+      "NIFTY 23600 PUT"
+    ],
+    "put_symbols": [
+      "NIFTY 23600 CALL",
+      "BANKNIFTY 56900 CALL",
+      "SENSEX 75400 CALL"
+    ]
+  }
+]
