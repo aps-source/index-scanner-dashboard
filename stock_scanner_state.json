@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T15:46:02.714758",
+  "generated_at": "2026-09-18T00:31:42.692203",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -13,7 +13,7 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 23270.6,
-      "last_bar_time": "2026-09-17T15:30:00",
+      "last_bar_time": "2026-09-17T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 2,
@@ -32,7 +32,7 @@
         "s1": 23127.55,
         "prevDayHigh": 23284.75,
         "prevDayLow": 23116.1,
-        "ema15_5": 23278.06,
+        "ema15_5": 23275.58,
         "monthlyCPR_tc": 24383.95,
         "monthlyCPR_pivot": 24282.77,
         "monthlyCPR_bc": 24181.58,
@@ -82,7 +82,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 56055.75,
-      "last_bar_time": "2026-09-17T15:30:00",
+      "last_bar_time": "2026-09-17T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 0,
@@ -101,7 +101,7 @@
         "s1": 55946.87,
         "prevDayHigh": 56368.7,
         "prevDayLow": 55812.2,
-        "ema15_5": 56087.79,
+        "ema15_5": 56077.11,
         "monthlyCPR_tc": 57891.58,
         "monthlyCPR_pivot": 57758.22,
         "monthlyCPR_bc": 57624.85,
@@ -151,7 +151,7 @@
       "chart_url": "https://dhan.co/indices/bse-sensex-chart/",
       "error": null,
       "ltp": 74314.59,
-      "last_bar_time": "2026-09-17T15:30:00",
+      "last_bar_time": "2026-09-17T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 2,
@@ -170,7 +170,7 @@
         "s1": 74043.23,
         "prevDayHigh": 74505.86,
         "prevDayLow": 73981.33,
-        "ema15_5": 74358.06,
+        "ema15_5": 74343.57,
         "monthlyCPR_tc": 80008.72,
         "monthlyCPR_pivot": 78991.57,
         "monthlyCPR_bc": 77974.42,
