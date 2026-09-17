@@ -500,5 +500,18 @@
     "err": 0,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-09-17T13:46:02.777194",
+    "date": "2026-09-17",
+    "time": "13:46",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "SENSEX 74200 CALL"
+    ]
   }
 ]
