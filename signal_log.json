@@ -1453,5 +1453,19 @@
     "err": 1,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-09-22T14:46:03.104951",
+    "date": "2026-09-22",
+    "time": "14:46",
+    "call": 0,
+    "put": 2,
+    "none": 7,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "BANKNIFTY",
+      "NIFTY 23450 CALL"
+    ]
   }
 ]
