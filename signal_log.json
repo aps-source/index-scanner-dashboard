@@ -1483,5 +1483,18 @@
       "BANKNIFTY 56500 CALL",
       "SENSEX 74900 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-09-22T15:16:02.640884",
+    "date": "2026-09-22",
+    "time": "15:16",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 23450 CALL"
+    ]
   }
 ]
