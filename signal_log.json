@@ -1525,5 +1525,16 @@
       "BANKNIFTY",
       "NIFTY 23450 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-09-23T09:31:03.371957",
+    "date": "2026-09-23",
+    "time": "09:31",
+    "call": 0,
+    "put": 0,
+    "none": 9,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": []
   }
 ]
