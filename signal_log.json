@@ -2034,5 +2034,21 @@
       "BANKNIFTY 55700 CALL",
       "SENSEX 74300 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-09-24T12:31:02.701929",
+    "date": "2026-09-24",
+    "time": "12:31",
+    "call": 0,
+    "put": 4,
+    "none": 5,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY",
+      "SENSEX",
+      "NIFTY 23200 CALL",
+      "SENSEX 74300 CALL"
+    ]
   }
 ]
