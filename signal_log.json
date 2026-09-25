@@ -2268,5 +2268,16 @@
       "BANKNIFTY 55700 CALL",
       "SENSEX 74300 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-09-25T09:31:04.934609",
+    "date": "2026-09-25",
+    "time": "09:31",
+    "call": 0,
+    "put": 0,
+    "none": 9,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": []
   }
 ]
