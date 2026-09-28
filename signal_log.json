@@ -2730,5 +2730,23 @@
     "put_symbols": [
       "BANKNIFTY 55300 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-09-28T13:46:04.760980",
+    "date": "2026-09-28",
+    "time": "13:46",
+    "call": 1,
+    "put": 4,
+    "none": 4,
+    "err": 0,
+    "call_symbols": [
+      "BANKNIFTY 55300 PUT"
+    ],
+    "put_symbols": [
+      "NIFTY",
+      "BANKNIFTY",
+      "NIFTY 23050 CALL",
+      "BANKNIFTY 55300 CALL"
+    ]
   }
 ]
