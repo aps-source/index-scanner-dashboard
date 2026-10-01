@@ -3683,5 +3683,25 @@
       "SENSEX",
       "SENSEX 72200 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-01T13:46:03.210321",
+    "date": "2026-10-01",
+    "time": "13:46",
+    "call": 2,
+    "put": 5,
+    "none": 2,
+    "err": 0,
+    "call_symbols": [
+      "BANKNIFTY 54600 PUT",
+      "SENSEX 72200 PUT"
+    ],
+    "put_symbols": [
+      "NIFTY",
+      "SENSEX",
+      "NIFTY 22550 CALL",
+      "BANKNIFTY 54600 CALL",
+      "SENSEX 72200 CALL"
+    ]
   }
 ]
