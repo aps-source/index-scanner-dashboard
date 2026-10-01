@@ -3479,5 +3479,18 @@
       "NIFTY 22650 CALL",
       "SENSEX 72400 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-01T09:31:04.878413",
+    "date": "2026-10-01",
+    "time": "09:31",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY"
+    ]
   }
 ]
