@@ -3633,5 +3633,22 @@
       "NIFTY 22550 CALL",
       "SENSEX 72200 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-01T13:02:26.009346",
+    "date": "2026-10-01",
+    "time": "13:02",
+    "call": 0,
+    "put": 5,
+    "none": 4,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY",
+      "SENSEX",
+      "NIFTY 22550 CALL",
+      "BANKNIFTY 54600 CALL",
+      "SENSEX 72200 CALL"
+    ]
   }
 ]
