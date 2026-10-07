@@ -4389,5 +4389,19 @@
     "put_symbols": [
       "NIFTY 22700 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-07T10:01:02.675726",
+    "date": "2026-10-07",
+    "time": "10:01",
+    "call": 0,
+    "put": 2,
+    "none": 7,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 22700 CALL",
+      "SENSEX 73000 CALL"
+    ]
   }
 ]
