@@ -4624,5 +4624,18 @@
     "err": 0,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-07T14:46:05.460722",
+    "date": "2026-10-07",
+    "time": "14:46",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "SENSEX 73000 CALL"
+    ]
   }
 ]
