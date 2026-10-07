@@ -4505,5 +4505,18 @@
     "err": 0,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-07T12:31:03.301439",
+    "date": "2026-10-07",
+    "time": "12:31",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 22700 CALL"
+    ]
   }
 ]
