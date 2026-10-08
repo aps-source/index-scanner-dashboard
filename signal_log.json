@@ -4990,5 +4990,25 @@
       "NIFTY 22600 CALL",
       "SENSEX 72700 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-08T13:46:02.865529",
+    "date": "2026-10-08",
+    "time": "13:46",
+    "call": 2,
+    "put": 5,
+    "none": 2,
+    "err": 0,
+    "call_symbols": [
+      "NIFTY 22600 PUT",
+      "SENSEX 72700 PUT"
+    ],
+    "put_symbols": [
+      "NIFTY",
+      "BANKNIFTY",
+      "SENSEX",
+      "NIFTY 22600 CALL",
+      "SENSEX 72700 CALL"
+    ]
   }
 ]
