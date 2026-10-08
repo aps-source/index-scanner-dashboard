@@ -4734,5 +4734,19 @@
       "NIFTY",
       "NIFTY 22600 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-08T10:01:03.486131",
+    "date": "2026-10-08",
+    "time": "10:01",
+    "call": 0,
+    "put": 2,
+    "none": 7,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY",
+      "NIFTY 22600 CALL"
+    ]
   }
 ]
