@@ -4707,5 +4707,18 @@
       "NIFTY 22700 CALL",
       "SENSEX 73000 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-08T09:31:03.665510",
+    "date": "2026-10-08",
+    "time": "09:31",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY"
+    ]
   }
 ]
