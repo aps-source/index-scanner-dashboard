@@ -5344,5 +5344,18 @@
     "err": 0,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-09T13:01:02.759264",
+    "date": "2026-10-09",
+    "time": "13:01",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "SENSEX 71800 PUT"
+    ]
   }
 ]
