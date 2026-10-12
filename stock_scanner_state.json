@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:24:02.575465",
+  "generated_at": "2026-10-12T08:55:08.370890",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -48,7 +48,28 @@
         "atmStrike915": 22300.0
       },
       "isNarrowCPR": true,
-      "optionLevels": null,
+      "optionLevels": {
+        "expiry": "2026-10-13",
+        "spot": 22520.45,
+        "maxPainStrike": 22500.0,
+        "resistanceStrike": 23000.0,
+        "supportStrike": 22500.0,
+        "atmDetails": {
+          "strike": 22300.0,
+          "ce_ltp": 292.4,
+          "ce_oi": 1877200.0,
+          "ce_iv": 26.11,
+          "ce_volume": 0.0,
+          "ce_bid": 0.0,
+          "ce_ask": 0.0,
+          "pe_ltp": 29.9,
+          "pe_oi": 11361090.0,
+          "pe_iv": 18.76,
+          "pe_volume": 0.0,
+          "pe_bid": 0.0,
+          "pe_ask": 0.0
+        }
+      },
       "confirmation": {
         "call": "NONE",
         "put": "NONE"
@@ -104,18 +125,18 @@
         "supportStrike": 55000.0,
         "atmDetails": {
           "strike": 54700.0,
-          "ce_ltp": 1187.1,
-          "ce_oi": 94710.0,
-          "ce_iv": 14.22,
-          "ce_volume": 510300.0,
-          "ce_bid": 1193.1,
-          "ce_ask": 1212.1,
-          "pe_ltp": 408.25,
-          "pe_oi": 163710.0,
-          "pe_iv": 15.36,
-          "pe_volume": 790110.0,
-          "pe_bid": 408.25,
-          "pe_ask": 412.5
+          "ce_ltp": 1171.4,
+          "ce_oi": 92880.0,
+          "ce_iv": 15.7,
+          "ce_volume": 0.0,
+          "ce_bid": 0.0,
+          "ce_ask": 0.0,
+          "pe_ltp": 423.85,
+          "pe_oi": 161880.0,
+          "pe_iv": 16.7,
+          "pe_volume": 0.0,
+          "pe_bid": 0.0,
+          "pe_ask": 0.0
         }
       },
       "confirmation": {
@@ -173,16 +194,16 @@
         "supportStrike": 70000.0,
         "atmDetails": {
           "strike": 71800.0,
-          "ce_ltp": 1026.5,
+          "ce_ltp": 1042.9,
           "ce_oi": 61640.0,
-          "ce_iv": 14.33,
-          "ce_volume": 1869460.0,
+          "ce_iv": 21.28,
+          "ce_volume": 0.0,
           "ce_bid": 0.0,
           "ce_ask": 0.0,
-          "pe_ltp": 211.3,
+          "pe_ltp": 209.3,
           "pe_oi": 264560.0,
-          "pe_iv": 13.68,
-          "pe_volume": 5502520.0,
+          "pe_iv": 17.5,
+          "pe_volume": 0.0,
           "pe_bid": 0.0,
           "pe_ask": 0.0
         }
