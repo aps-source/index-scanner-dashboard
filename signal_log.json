@@ -5631,5 +5631,20 @@
       "BANKNIFTY 55400 CALL",
       "SENSEX 72800 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-12T12:16:02.950108",
+    "date": "2026-10-12",
+    "time": "12:16",
+    "call": 0,
+    "put": 3,
+    "none": 6,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 22600 CALL",
+      "BANKNIFTY 55400 CALL",
+      "SENSEX 72800 CALL"
+    ]
   }
 ]
