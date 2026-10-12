@@ -5740,5 +5740,21 @@
     "put_symbols": [
       "SENSEX 72800 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-12T14:31:04.417295",
+    "date": "2026-10-12",
+    "time": "14:31",
+    "call": 0,
+    "put": 4,
+    "none": 5,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "SENSEX",
+      "NIFTY 22600 CALL",
+      "BANKNIFTY 55400 CALL",
+      "SENSEX 72800 CALL"
+    ]
   }
 ]
