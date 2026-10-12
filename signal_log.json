@@ -5659,5 +5659,16 @@
     "put_symbols": [
       "NIFTY 22600 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-12T12:46:02.836559",
+    "date": "2026-10-12",
+    "time": "12:46",
+    "call": 0,
+    "put": 0,
+    "none": 9,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": []
   }
 ]
