@@ -6621,5 +6621,18 @@
       "SENSEX 74300 CALL"
     ],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-16T10:31:15.461277",
+    "date": "2026-10-16",
+    "time": "10:31",
+    "call": 1,
+    "put": 0,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [
+      "SENSEX 74300 CALL"
+    ],
+    "put_symbols": []
   }
 ]
