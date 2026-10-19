@@ -7059,5 +7059,18 @@
       "NIFTY 23150 CALL",
       "BANKNIFTY 55800 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-19T13:16:06.123803",
+    "date": "2026-10-19",
+    "time": "13:16",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 23150 CALL"
+    ]
   }
 ]
