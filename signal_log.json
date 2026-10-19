@@ -7017,5 +7017,19 @@
     "err": 1,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-19T12:31:05.506955",
+    "date": "2026-10-19",
+    "time": "12:31",
+    "call": 0,
+    "put": 2,
+    "none": 7,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 23150 CALL",
+      "BANKNIFTY 55800 CALL"
+    ]
   }
 ]
