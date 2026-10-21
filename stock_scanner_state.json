@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:46:03.881665",
+  "generated_at": "2026-10-21T09:51:44.477463",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -48,28 +48,7 @@
         "atmStrike915": 23000.0
       },
       "isNarrowCPR": true,
-      "optionLevels": {
-        "expiry": "2026-10-27",
-        "spot": 23084.15,
-        "maxPainStrike": 23100.0,
-        "resistanceStrike": 23500.0,
-        "supportStrike": 23000.0,
-        "atmDetails": {
-          "strike": 23000.0,
-          "ce_ltp": 222.9,
-          "ce_oi": 10192780.0,
-          "ce_iv": 12.34,
-          "ce_volume": 32641570.0,
-          "ce_bid": 222.4,
-          "ce_ask": 222.9,
-          "pe_ltp": 126.55,
-          "pe_oi": 12931750.0,
-          "pe_iv": 14.97,
-          "pe_volume": 30847700.0,
-          "pe_bid": 126.25,
-          "pe_ask": 126.6
-        }
-      },
+      "optionLevels": null,
       "confirmation": {
         "call": "NONE",
         "put": "NONE"
@@ -119,24 +98,24 @@
       "isNarrowCPR": true,
       "optionLevels": {
         "expiry": "2026-10-27",
-        "spot": 55729.2,
-        "maxPainStrike": 55800.0,
+        "spot": 55649.9,
+        "maxPainStrike": 55700.0,
         "resistanceStrike": 56000.0,
         "supportStrike": 55000.0,
         "atmDetails": {
           "strike": 55700.0,
-          "ce_ltp": 485.4,
-          "ce_oi": 281070.0,
-          "ce_iv": 14.15,
-          "ce_volume": 859170.0,
-          "ce_bid": 484.2,
-          "ce_ask": 485.7,
-          "pe_ltp": 359.2,
+          "ce_ltp": 447.0,
+          "ce_oi": 301500.0,
+          "ce_iv": 14.24,
+          "ce_volume": 1000890.0,
+          "ce_bid": 445.6,
+          "ce_ask": 447.3,
+          "pe_ltp": 397.45,
           "pe_oi": 223740.0,
-          "pe_iv": 14.2,
-          "pe_volume": 637890.0,
-          "pe_bid": 358.8,
-          "pe_ask": 359.9
+          "pe_iv": 14.33,
+          "pe_volume": 812220.0,
+          "pe_bid": 397.1,
+          "pe_ask": 398.0
         }
       },
       "confirmation": {
@@ -188,24 +167,24 @@
       "isNarrowCPR": true,
       "optionLevels": {
         "expiry": "2026-10-22",
-        "spot": 74547.78,
+        "spot": 74446.4,
         "maxPainStrike": 74500.0,
         "resistanceStrike": 75000.0,
         "supportStrike": 74000.0,
         "atmDetails": {
           "strike": 74300.0,
-          "ce_ltp": 484.75,
-          "ce_oi": 476800.0,
-          "ce_iv": 17.27,
-          "ce_volume": 7380620.0,
-          "ce_bid": 485.4,
-          "ce_ask": 486.55,
-          "pe_ltp": 223.5,
-          "pe_oi": 1452500.0,
-          "pe_iv": 18.27,
-          "pe_volume": 7821980.0,
-          "pe_bid": 223.0,
-          "pe_ask": 223.55
+          "ce_ltp": 422.3,
+          "ce_oi": 467900.0,
+          "ce_iv": 17.25,
+          "ce_volume": 7882840.0,
+          "ce_bid": 422.05,
+          "ce_ask": 423.2,
+          "pe_ltp": 272.85,
+          "pe_oi": 1493240.0,
+          "pe_iv": 18.87,
+          "pe_volume": 10231580.0,
+          "pe_bid": 272.2,
+          "pe_ask": 272.85
         }
       },
       "confirmation": {
