@@ -7719,5 +7719,18 @@
       "NIFTY 23000 CALL",
       "BANKNIFTY 55700 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-21T15:01:04.360668",
+    "date": "2026-10-21",
+    "time": "15:01",
+    "call": 0,
+    "put": 1,
+    "none": 5,
+    "err": 1,
+    "call_symbols": [],
+    "put_symbols": [
+      "BANKNIFTY 55700 CALL"
+    ]
   }
 ]
