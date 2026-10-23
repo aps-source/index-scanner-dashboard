@@ -8238,5 +8238,22 @@
     "err": 3,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-23T12:31:04.958742",
+    "date": "2026-10-23",
+    "time": "12:31",
+    "call": 0,
+    "put": 5,
+    "none": 4,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY",
+      "BANKNIFTY",
+      "NIFTY 22750 CALL",
+      "BANKNIFTY 55000 CALL",
+      "SENSEX 73700 CALL"
+    ]
   }
 ]
