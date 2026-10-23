@@ -8135,5 +8135,21 @@
       "BANKNIFTY",
       "BANKNIFTY 55000 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-23T10:31:06.125325",
+    "date": "2026-10-23",
+    "time": "10:31",
+    "call": 0,
+    "put": 4,
+    "none": 5,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY",
+      "BANKNIFTY",
+      "NIFTY 22750 CALL",
+      "BANKNIFTY 55000 CALL"
+    ]
   }
 ]
