@@ -8823,5 +8823,18 @@
     "err": 1,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-10-27T11:46:12.315663",
+    "date": "2026-10-27",
+    "time": "11:46",
+    "call": 0,
+    "put": 1,
+    "none": 8,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "BANKNIFTY 54400 CALL"
+    ]
   }
 ]
