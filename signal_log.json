@@ -9047,5 +9047,21 @@
     "put_symbols": [
       "BANKNIFTY 54400 CALL"
     ]
+  },
+  {
+    "generated_at": "2026-10-28T09:31:05.436608",
+    "date": "2026-10-28",
+    "time": "09:31",
+    "call": 0,
+    "put": 4,
+    "none": 5,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "BANKNIFTY",
+      "NIFTY 22700 CALL",
+      "BANKNIFTY 53800 CALL",
+      "SENSEX 73300 CALL"
+    ]
   }
 ]
