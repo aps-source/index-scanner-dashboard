@@ -9959,5 +9959,19 @@
       "BANKNIFTY 54800 PUT",
       "SENSEX 75200 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-02T09:46:05.999525",
+    "date": "2026-11-02",
+    "time": "09:46",
+    "call": 0,
+    "put": 2,
+    "none": 7,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": [
+      "BANKNIFTY 54800 PUT",
+      "SENSEX 75200 PUT"
+    ]
   }
 ]
