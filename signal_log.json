@@ -10429,5 +10429,20 @@
     "put_symbols": [
       "NIFTY 23600 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-03T12:01:04.307778",
+    "date": "2026-11-03",
+    "time": "12:01",
+    "call": 1,
+    "put": 1,
+    "none": 6,
+    "err": 1,
+    "call_symbols": [
+      "SENSEX 76300 CALL"
+    ],
+    "put_symbols": [
+      "NIFTY 23600 PUT"
+    ]
   }
 ]
