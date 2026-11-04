@@ -10967,5 +10967,16 @@
       "NIFTY 23750 PUT",
       "SENSEX 76900 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-04T15:31:05.131012",
+    "date": "2026-11-04",
+    "time": "15:31",
+    "call": 0,
+    "put": 0,
+    "none": 0,
+    "err": 3,
+    "call_symbols": [],
+    "put_symbols": []
   }
 ]
