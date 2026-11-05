@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:46:02.917737",
+  "generated_at": "2026-11-05T09:04:32.702977",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -13,7 +13,7 @@
       "chart_url": "https://dhan.co/indices/nifty-50-chart/",
       "error": null,
       "ltp": 23960.6,
-      "last_bar_time": "2026-11-04T15:15:00",
+      "last_bar_time": "2026-11-04T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -32,7 +32,7 @@
         "s1": 23592.15,
         "prevDayHigh": 23810.85,
         "prevDayLow": 23482.8,
-        "ema15_5": 23924.46,
+        "ema15_5": 23936.51,
         "monthlyCPR_tc": 22927.92,
         "monthlyCPR_pivot": 22802.75,
         "monthlyCPR_bc": 22677.58,
@@ -48,7 +48,28 @@
         "atmStrike915": 23750.0
       },
       "isNarrowCPR": true,
-      "optionLevels": null,
+      "optionLevels": {
+        "expiry": "2026-11-09",
+        "spot": 24438.55,
+        "maxPainStrike": 23800.0,
+        "resistanceStrike": 25000.0,
+        "supportStrike": 23000.0,
+        "atmDetails": {
+          "strike": 23750.0,
+          "ce_ltp": 268.55,
+          "ce_oi": 1697930.0,
+          "ce_iv": 10.31,
+          "ce_volume": 0.0,
+          "ce_bid": 0.0,
+          "ce_ask": 0.0,
+          "pe_ltp": 88.25,
+          "pe_oi": 2367300.0,
+          "pe_iv": 17.38,
+          "pe_volume": 0.0,
+          "pe_bid": 0.0,
+          "pe_ask": 0.0
+        }
+      },
       "confirmation": {
         "call": "NONE",
         "put": "NONE"
@@ -61,7 +82,7 @@
       "chart_url": "https://dhan.co/indices/nifty-bank-chart/",
       "error": null,
       "ltp": 55913.6,
-      "last_bar_time": "2026-11-04T15:15:00",
+      "last_bar_time": "2026-11-04T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -80,7 +101,7 @@
         "s1": 55229.77,
         "prevDayHigh": 55739.0,
         "prevDayLow": 55174.1,
-        "ema15_5": 55856.2,
+        "ema15_5": 55875.33,
         "monthlyCPR_tc": 54845.82,
         "monthlyCPR_pivot": 54792.87,
         "monthlyCPR_bc": 54739.91,
@@ -98,24 +119,24 @@
       "isNarrowCPR": true,
       "optionLevels": {
         "expiry": "2026-11-23",
-        "spot": 55913.6,
+        "spot": 57280.8,
         "maxPainStrike": 55700.0,
         "resistanceStrike": 58000.0,
         "supportStrike": 55000.0,
         "atmDetails": {
           "strike": 55500.0,
-          "ce_ltp": 996.4,
-          "ce_oi": 726360.0,
-          "ce_iv": 11.33,
-          "ce_volume": 2694390.0,
-          "ce_bid": 985.9,
-          "ce_ask": 996.6,
-          "pe_ltp": 500.5,
-          "pe_oi": 650880.0,
-          "pe_iv": 15.81,
-          "pe_volume": 2749410.0,
-          "pe_bid": 495.0,
-          "pe_ask": 507.0
+          "ce_ltp": 977.25,
+          "ce_oi": 725040.0,
+          "ce_iv": 11.28,
+          "ce_volume": 0.0,
+          "ce_bid": 0.0,
+          "ce_ask": 0.0,
+          "pe_ltp": 514.55,
+          "pe_oi": 650610.0,
+          "pe_iv": 16.33,
+          "pe_volume": 0.0,
+          "pe_bid": 0.0,
+          "pe_ask": 0.0
         }
       },
       "confirmation": {
@@ -130,7 +151,7 @@
       "chart_url": "https://dhan.co/indices/bse-sensex-chart/",
       "error": null,
       "ltp": 77301.4,
-      "last_bar_time": "2026-11-04T15:15:00",
+      "last_bar_time": "2026-11-04T15:45:00",
       "signal": "NONE",
       "buy": {
         "count": 6,
@@ -149,7 +170,7 @@
         "s1": 76328.44,
         "prevDayHigh": 76917.85,
         "prevDayLow": 76033.74,
-        "ema15_5": 77237.45,
+        "ema15_5": 77258.76,
         "monthlyCPR_tc": 73996.79,
         "monthlyCPR_pivot": 73534.05,
         "monthlyCPR_bc": 73071.32,
@@ -167,22 +188,22 @@
       "isNarrowCPR": true,
       "optionLevels": {
         "expiry": "2026-11-05",
-        "spot": 77301.4,
+        "spot": 79077.36,
         "maxPainStrike": 77000.0,
         "resistanceStrike": 80000.0,
         "supportStrike": 76000.0,
         "atmDetails": {
           "strike": 76900.0,
-          "ce_ltp": 504.4,
+          "ce_ltp": 551.5,
           "ce_oi": 321760.0,
-          "ce_iv": 12.91,
-          "ce_volume": 46464040.0,
+          "ce_iv": 25.97,
+          "ce_volume": 0.0,
           "ce_bid": 0.0,
           "ce_ask": 0.0,
-          "pe_ltp": 180.65,
+          "pe_ltp": 143.35,
           "pe_oi": 643840.0,
-          "pe_iv": 19.84,
-          "pe_volume": 66775640.0,
+          "pe_iv": 26.39,
+          "pe_volume": 0.0,
           "pe_bid": 0.0,
           "pe_ask": 0.0
         }
