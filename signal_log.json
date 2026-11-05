@@ -11329,5 +11329,18 @@
     "err": 1,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-11-05T14:46:05.286137",
+    "date": "2026-11-05",
+    "time": "14:46",
+    "call": 1,
+    "put": 0,
+    "none": 4,
+    "err": 2,
+    "call_symbols": [
+      "SENSEX 78900 CALL"
+    ],
+    "put_symbols": []
   }
 ]
