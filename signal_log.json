@@ -11080,5 +11080,20 @@
     "put_symbols": [
       "NIFTY 24400 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-05T10:46:07.275360",
+    "date": "2026-11-05",
+    "time": "10:46",
+    "call": 1,
+    "put": 1,
+    "none": 6,
+    "err": 1,
+    "call_symbols": [
+      "NIFTY 24400 CALL"
+    ],
+    "put_symbols": [
+      "NIFTY 24400 PUT"
+    ]
   }
 ]
