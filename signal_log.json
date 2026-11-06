@@ -11453,5 +11453,18 @@
     "err": 3,
     "call_symbols": [],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-11-06T10:31:07.949988",
+    "date": "2026-11-06",
+    "time": "10:31",
+    "call": 1,
+    "put": 0,
+    "none": 5,
+    "err": 3,
+    "call_symbols": [
+      "NIFTY 24550 CALL"
+    ],
+    "put_symbols": []
   }
 ]
