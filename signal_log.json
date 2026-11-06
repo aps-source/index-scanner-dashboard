@@ -11597,5 +11597,21 @@
     "put_symbols": [
       "NIFTY 24550 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-06T13:31:06.183413",
+    "date": "2026-11-06",
+    "time": "13:31",
+    "call": 2,
+    "put": 1,
+    "none": 5,
+    "err": 1,
+    "call_symbols": [
+      "NIFTY 24550 CALL",
+      "SENSEX 79400 CALL"
+    ],
+    "put_symbols": [
+      "NIFTY 24550 PUT"
+    ]
   }
 ]
