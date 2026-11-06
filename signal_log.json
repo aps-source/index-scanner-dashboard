@@ -11581,5 +11581,21 @@
       "SENSEX 79400 CALL"
     ],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-11-06T13:16:05.590640",
+    "date": "2026-11-06",
+    "time": "13:16",
+    "call": 2,
+    "put": 1,
+    "none": 5,
+    "err": 1,
+    "call_symbols": [
+      "NIFTY 24550 CALL",
+      "SENSEX 79400 CALL"
+    ],
+    "put_symbols": [
+      "NIFTY 24550 PUT"
+    ]
   }
 ]
