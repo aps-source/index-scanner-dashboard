@@ -12052,5 +12052,21 @@
       "NIFTY 25050 PUT",
       "BANKNIFTY 59200 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-09T15:31:05.879896",
+    "date": "2026-11-09",
+    "time": "15:31",
+    "call": 1,
+    "put": 2,
+    "none": 5,
+    "err": 1,
+    "call_symbols": [
+      "BANKNIFTY 59200 CALL"
+    ],
+    "put_symbols": [
+      "NIFTY 25050 PUT",
+      "BANKNIFTY 59200 PUT"
+    ]
   }
 ]
