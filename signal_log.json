@@ -11742,5 +11742,16 @@
       "NIFTY 24550 PUT",
       "BANKNIFTY 57800 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-09T08:45:17.629548",
+    "date": "2026-11-09",
+    "time": "08:45",
+    "call": 0,
+    "put": 0,
+    "none": 3,
+    "err": 0,
+    "call_symbols": [],
+    "put_symbols": []
   }
 ]
