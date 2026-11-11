@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T10:01:04.264006",
+  "generated_at": "2026-11-11T10:03:46.584300",
   "meta": {
     "max_trades_per_day": 6,
     "max_loss_per_day": 2000,
@@ -98,24 +98,24 @@
       "isNarrowCPR": true,
       "optionLevels": {
         "expiry": "2026-11-23",
-        "spot": 60816.05,
+        "spot": 60814.9,
         "maxPainStrike": 58000.0,
         "resistanceStrike": 58000.0,
         "supportStrike": 58000.0,
         "atmDetails": {
           "strike": 60500.0,
-          "ce_ltp": 889.1,
-          "ce_oi": 1007850.0,
-          "ce_iv": 13.28,
-          "ce_volume": 1933260.0,
-          "ce_bid": 889.2,
-          "ce_ask": 890.0,
-          "pe_ltp": 676.4,
-          "pe_oi": 623190.0,
-          "pe_iv": 20.44,
-          "pe_volume": 1176750.0,
-          "pe_bid": 673.2,
-          "pe_ask": 674.85
+          "ce_ltp": 892.1,
+          "ce_oi": 1008570.0,
+          "ce_iv": 13.34,
+          "ce_volume": 1951530.0,
+          "ce_bid": 888.55,
+          "ce_ask": 891.8,
+          "pe_ltp": 677.05,
+          "pe_oi": 640050.0,
+          "pe_iv": 20.48,
+          "pe_volume": 1200330.0,
+          "pe_bid": 678.65,
+          "pe_ask": 680.8
         }
       },
       "confirmation": {
@@ -167,24 +167,24 @@
       "isNarrowCPR": true,
       "optionLevels": {
         "expiry": "2026-11-12",
-        "spot": 82325.35,
+        "spot": 82307.17,
         "maxPainStrike": 82000.0,
         "resistanceStrike": 85000.0,
-        "supportStrike": 77000.0,
+        "supportStrike": 80000.0,
         "atmDetails": {
           "strike": 82200.0,
-          "ce_ltp": 552.05,
-          "ce_oi": 753320.0,
-          "ce_iv": 22.8,
-          "ce_volume": 10663360.0,
-          "ce_bid": 551.8,
-          "ce_ask": 552.8,
-          "pe_ltp": 397.9,
-          "pe_oi": 1069800.0,
-          "pe_iv": 22.56,
-          "pe_volume": 9958840.0,
-          "pe_bid": 397.95,
-          "pe_ask": 398.45
+          "ce_ltp": 535.3,
+          "ce_oi": 790300.0,
+          "ce_iv": 22.18,
+          "ce_volume": 10861000.0,
+          "ce_bid": 534.95,
+          "ce_ask": 536.05,
+          "pe_ltp": 417.0,
+          "pe_oi": 1098260.0,
+          "pe_iv": 23.35,
+          "pe_volume": 10378040.0,
+          "pe_bid": 416.15,
+          "pe_ask": 417.0
         }
       },
       "confirmation": {
