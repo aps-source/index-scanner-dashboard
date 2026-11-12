@@ -12817,5 +12817,18 @@
       "BANKNIFTY"
     ],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-11-12T09:05:52.268298",
+    "date": "2026-11-12",
+    "time": "09:05",
+    "call": 1,
+    "put": 0,
+    "none": 7,
+    "err": 1,
+    "call_symbols": [
+      "BANKNIFTY"
+    ],
+    "put_symbols": []
   }
 ]
