@@ -13089,5 +13089,21 @@
       "BANKNIFTY 60800 PUT",
       "SENSEX 81800 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-12T14:31:05.704693",
+    "date": "2026-11-12",
+    "time": "14:31",
+    "call": 1,
+    "put": 2,
+    "none": 6,
+    "err": 0,
+    "call_symbols": [
+      "BANKNIFTY"
+    ],
+    "put_symbols": [
+      "BANKNIFTY 60800 PUT",
+      "SENSEX 81800 PUT"
+    ]
   }
 ]
