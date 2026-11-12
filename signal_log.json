@@ -12830,5 +12830,18 @@
       "BANKNIFTY"
     ],
     "put_symbols": []
+  },
+  {
+    "generated_at": "2026-11-12T09:31:05.890895",
+    "date": "2026-11-12",
+    "time": "09:31",
+    "call": 0,
+    "put": 1,
+    "none": 7,
+    "err": 1,
+    "call_symbols": [],
+    "put_symbols": [
+      "SENSEX 81800 PUT"
+    ]
   }
 ]
