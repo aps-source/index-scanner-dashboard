@@ -12897,5 +12897,19 @@
       "NIFTY 25200 PUT",
       "SENSEX 81800 PUT"
     ]
+  },
+  {
+    "generated_at": "2026-11-12T10:46:05.367516",
+    "date": "2026-11-12",
+    "time": "10:46",
+    "call": 0,
+    "put": 2,
+    "none": 6,
+    "err": 1,
+    "call_symbols": [],
+    "put_symbols": [
+      "NIFTY 25200 PUT",
+      "SENSEX 81800 PUT"
+    ]
   }
 ]
